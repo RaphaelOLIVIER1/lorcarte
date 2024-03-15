@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorcarte</title>
-</head>
+<?php
+include_once 'header.php';
+?>
+
 <body>
-    <h1>Lorcarte</h1>
+    <div>
+        <h1>Lorcarte</h1>
+    </div>
 </body>
-</html>
+
+<?php
+include_once 'footer.php';
+?>
