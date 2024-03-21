@@ -2,10 +2,50 @@
 include_once 'header.php';
 ?>
 
-<body>
-    <div>
-        <h1>Lorcarte</h1>
-    </div>
+<body class="max-width:75%;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="d-md-none my-5">
+
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand">Lorcarte</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Voir Les Offre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Voir Les Demande</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Categorie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a class="btn btn-primary" href="#">Connection</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="">
+            <div style="width: 18rem;">
+                <img src="./images/1715017-stitch-article_m-1.png" alt="">
+            </div>
+        </div>
+    </section>
+
 </body>
 
 <?php
