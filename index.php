@@ -39,9 +39,15 @@ include_once 'header.php';
     </nav>
 
     <section>
-        <div class="">
-            <div style="width: 18rem;">
-                <img src="./images/1715017-stitch-article_m-1.png" alt="">
+        <div class="mt-5 d-none d-lg-flex justify-content-around">
+            <div class="carte">
+                <img src="./images/disney-lorcana-tcg-carte-la-bete-carte-70-204-le-palais-des-goodies.png" style="width: 25rem;" alt="">
+            </div>
+            <div class="carte">
+                <img src="./images/disney-lorcana-tcg-carte-donald-144-204-le-palais-des-goodies.png" style="width: 25rem;" alt="">
+            </div>
+            <div class="carte">
+                <img src="./images/disney-lorcana-tcg-carte-malefique-carte-49-204-le-palais-des-goodies.png" style="width: 25rem;" alt="">
             </div>
         </div>
     </section>
