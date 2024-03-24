@@ -5,7 +5,7 @@
  document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin,EaselPlugin,PixiPlugin,TextPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase)
   // gsap code here!
-  gsap.from(".carte", {y: 200,
+  gsap.from(".carte", {y: 50,
     opacity : 0,
     duration : 1,
     delay: 0.5,
