@@ -15,7 +15,7 @@ include_once('header.php');
                         <a href="#" class="nav-link active text-light" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-light">Voir Les Offre</a>
+                        <a href="" class="nav-link text-light">Voir Les Offre</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text-light">Voir Les Demande</a>
@@ -23,7 +23,7 @@ include_once('header.php');
                     <li class="nav-item">
                         <a href="#" class="nav-link text-light">Categorie &ensp;</a>
                         <ul class="sous bg-dark rounded">
-                            <li><a class="text-light" href="#">Saison 1</a></li>
+                            <li><a class="text-light" href="./saison1.php">Saison 1</a></li>
                             <li><a class="text-light" href="#">Saison 2</a></li>
                             <li><a class="text-light" href="#">Saison 3</a></li>
                         </ul>
@@ -42,21 +42,17 @@ include_once('header.php');
             </div>
         </div>
     </nav>
-    <section class="affiche d-flex align-items-center justify-content-center">
+    <section class="affiche d-none d-lg-flex align-items-center justify-content-center">
         <div class=" d-none d-lg-flex justify-content-around align-items-center" id="fond">
             <div class="carte">
                 <img src="./images/disney-lorcana-tcg-carte-la-bete-carte-70-204-le-palais-des-goodies.png" alt="">
-            </div>
-            <div class="carte">
                 <img src="./images/disney-lorcana-tcg-carte-donald-144-204-le-palais-des-goodies.png" alt="">
-            </div>
-            <div class="carte">
                 <img src="./images/disney-lorcana-tcg-carte-malefique-carte-49-204-le-palais-des-goodies.png" alt="">
             </div>
         </div>
     </section>
     <section>
-        <div class="marchant d-flex justify-content-evenly">
+        <div class="marchant d-sm-block d-md-flex justify-content-evenly">
             <div class="demande bg-white  rounded m-5 ">
                 <div class=" title bg-primary text-light py-1 px-3">Dernière Offres</div>
                 <div class="">

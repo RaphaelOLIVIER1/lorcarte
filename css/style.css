@@ -31,6 +31,8 @@ li a{
     display: none;
     position: absolute;
     top: 48px;
+    z-index: 100;
+
 }
 .sous li a {
     padding: 4px;
@@ -58,20 +60,24 @@ nav > div > .profil:hover .sous{
     margin: 4rem;
 }
 
-.carte img {
+.carte img{
     width: 20rem;
-    transition: all 0.5s;
+    transition:  0.6s ease;
 }
 
 .carte img:hover{
     filter: drop-shadow(0px 0px 10px yellow);
     width: 23rem;
-    transition: width 0.5s, filter 0.5s;
+    transition: 1s;
+}
+.carte:hover > :not(:hover) {
+    filter: blur(1px);
+    transition: 0.6s;
 }
 
 .demande {
     display: block;
-    width: 40%;
+    min-width: 40%;
     box-shadow: 0px 0px 10px black;
 }
 
@@ -99,8 +105,6 @@ nav > div > .profil:hover .sous{
     font-size: 18px;
     color: black;
 }
-.demande > div > a .business{
-}
 .demande > div > a .business img {
     width: 25px;
     height: 25px;
@@ -117,4 +121,85 @@ nav > div > .profil:hover .sous{
 .demande > div > a time{
     color: black;
 
+}
+
+.container-search {
+    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.455);
+    max-width: 50vw;
+    min-width: 250px;
+
+}
+
+
+.container-search .search div img {
+    width: 40px;
+    height: 40px;
+}
+.container-search .search div {
+    cursor: pointer;
+}
+
+.container-search .search div> div> input {
+    max-width: 500px;
+    min-width: 100px;
+
+}
+.container-search .search div> div> button > svg{
+    width: 50px;
+
+}
+
+section .filter {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-wrap: wrap;
+}
+
+section .filter  div div > div {
+    flex-wrap: wrap;
+}
+
+.cartes {
+    flex-wrap: wrap;
+}
+
+.cartes div img{
+    width: 15rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition:  0.6s ease;
+    margin: 5px;
+}
+
+.cartes  div img:hover{
+    transition: 1s;
+    filter: drop-shadow(0 0 15px #26e0ed);
+} 
+.cartes:hover > :not(:hover) {
+    filter: blur(1px); 
+    transition: 0.6s;
+}
+
+.visible {
+    display: sticky;
+}
+
+.carte_description{
+    background: #383737;
+    color: white;
+    width: 100vw;
+    height: 300px;
+    position: sticky;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte_description div > img {
+    width: 20rem;
+}
+
+.carte_description div p {
+    max-width: 400px;
 }
